@@ -11,14 +11,15 @@ for i in range (num):
 
 print("<", end="")
 
-for j in range(num):
+for _ in range(num):
     print(list.pop(start), end ="")
     start = start+step
+    
     if len(list) >0:
         print(", ", end ="")
     else :
         break
+    
     if start > len(list)-1:
         start = start % (len(list))
-    
 print(">", end ="")
