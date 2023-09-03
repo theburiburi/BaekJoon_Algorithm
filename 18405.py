@@ -42,8 +42,8 @@ dic = dict(sorted(dic.items()))  # 바이러스 1, 2, 3 기준으로 정렬
                                 # dic 에는 sort함수가 없음
                                 # dict형으로 변환 안 하면 list로 반환됨
 for _ in range(S):
-    
+    if (arr[X-1][Y-1] != 0): #찾는 값이 채워지면 출력하고 종료 (시간 줄이기)
+        break
     for i, j in zip(dic.keys() ,dic.values()):#zip > [1, 2, 3] ['a', 'b', 'c'] = (1, 'a') ...
-        dic[i] = update(i, j)
+        dic[i] = update(i, j)                 #dic.keys() == dic 같은 표현
 print(arr[X-1][Y-1])
-print(arr)
