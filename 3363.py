@@ -68,31 +68,3 @@ elif len(result) > 1 :
 else :
     print(result[0], end = "")
     print(check)
-    
-    
-    
-""" #방법 2
-if len(result) == 1:
-    print(result[0], end = "")
-    print(check)
-elif len(result) == 0:
-    print('impossible')
-else:
-    print('indefinite')
-"""
-    
-""" 방법 3
-if len(smaller) == 0 or len(bigger) == 0:
-    if len(smaller) == 0 and len(bigger) == 0:
-        print('impossible')
-    elif len(smaller) == 1:
-        print(smaller[0], end = "")
-        print('-')
-    elif len(bigger) == 1:
-        print(bigger[0], end = "")
-        print('+')
-    else:
-        print('indefinite')
-else:
-    print("indefinite")
-"""
