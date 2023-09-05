@@ -5,6 +5,8 @@ smaller = num.copy()
 
 for _ in range(3):
     coin_list = list(sys.stdin.readline().split())
+    if not coin_list : #입력받지 못하면 재입력 받기
+        coin_list = list(sys.stdin.readline().split())
     left = list(map(int, coin_list[:4]))
     right = list(map(int, coin_list[5:]))
     difference = list(set(num)-set(left)-set(right)) #리스트 차이점 찾기
@@ -59,6 +61,17 @@ result = []
 result.extend(smaller)
 result.extend(bigger)
 
+if not result :
+    print("impossible")
+elif len(result) > 1 :
+    print("indefinite")
+else :
+    print(result[0], end = "")
+    print(check)
+    
+    
+    
+""" #방법 2
 if len(result) == 1:
     print(result[0], end = "")
     print(check)
@@ -66,9 +79,9 @@ elif len(result) == 0:
     print('impossible')
 else:
     print('indefinite')
-    
-    
 """
+    
+""" 방법 3
 if len(smaller) == 0 or len(bigger) == 0:
     if len(smaller) == 0 and len(bigger) == 0:
         print('impossible')
