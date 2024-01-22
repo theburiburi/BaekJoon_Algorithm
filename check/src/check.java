@@ -7,15 +7,16 @@ import java.util.StringTokenizer;
 public class check{
     public static void main(String args[]) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st;
+        
         int N = Integer.parseInt(br.readLine());
-        boolean checked[][] = new boolean[N][N];
+        int arr[] = new int[N+1];
 
-        for(int i = 0; i < N; i++)
+        for (int i = 3; i < 10; i++)
         {
-            for (int j = 0; j < N; j++)
-            {
-                System.out.println(checked[i][j]);
-            }
+            int temp = i;
+            System.out.println(temp);
+
         }
     }
 }
