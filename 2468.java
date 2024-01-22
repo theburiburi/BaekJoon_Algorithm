@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class 2468{
+public class Main{  //2468
     static int N;
     static int maxHeight;
     static int[] dx = {1, -1, 0, 0};

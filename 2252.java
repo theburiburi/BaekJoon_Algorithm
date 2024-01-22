@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.LinkedList;
 
-public class 2252{
+public class Main{ //2252 그래프
     static ArrayList<Integer>[] graph;
     static int M, N;
     static int indegree[];
