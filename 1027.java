@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main{ //1027
+public class Main{ //1027 완전탐색
     
     static int height[];
     static int N;

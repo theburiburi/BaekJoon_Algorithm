@@ -2,8 +2,8 @@ import java.io.IOException;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-
-public class Main{ //4811 디피
+// **********다시풀기**********
+public class Main{ //4811 DP 
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();

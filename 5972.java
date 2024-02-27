@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 import java.util.ArrayList;
 import java.util.PriorityQueue;
 
-public class Main{ //5972
+public class Main{ //그래프 5972
     static int N, M;
     static int[] dist;
     static ArrayList<Node>[] Graph;
